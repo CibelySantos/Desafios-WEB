@@ -1,2 +1,19 @@
 /* Cibely Cristiny dos Santos n°04
    Gabriel Moreira Gonçalves n°6 */
+.img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 13%;
+   display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+#img1{
+   border-radius: 10px;
+}
+#img2{
+   border-radius: 10px;
+}
+#img3{
+   border-radius: 10px;
+}
