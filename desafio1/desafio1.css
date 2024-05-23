@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-.pricing-table {
+.tabeladepreco {
     display: flex;
     justify-content: space-around;
     width: 80%;
@@ -18,7 +18,7 @@ body {
 
 }
 
-.plan {
+.plano {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -29,24 +29,24 @@ body {
     margin: 50px;
 }
 
-.plan h2 {
+.plano h2 {
     color: #333;
     margin-bottom: 10px;
 }
 
-.price {
+.preco {
     font-size: 24px;
     color: #000000;
     margin: 20px 0;
 }
 
-.plan ul {
+.plano ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
 }
 
-.plan ul li {
+.plano ul li {
     margin-bottom: 10px;
 }
 

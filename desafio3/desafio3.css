@@ -9,46 +9,46 @@ body {
     margin: 0;
 }
 
-.product-container {
+.geral {
     display: flex;
     max-width: 800px;
     width: 100%;
 }
 
-.product-image {
+.imagemproduto {
     flex: 1;
     max-width: 300px;
 }
 
-.product-image img {
+.imagemproduto img {
     width: 100%;
     height: auto;
 }
 
-.product-details {
+.produto {
     flex: 2;
     padding: 20px;
 }
 
-.product-details h1 {
+.produto h1 {
     margin: 0;
     font-size: 24px;
     color: #333;
 }
 
-.product-details .description {
+.produto .descricao {
     margin: 20px 0;
     font-size: 16px;
     color: #666;
 }
 
-.product-details .price {
+.produto .preco {
     font-size: 24px;
     color: #ff000d;
     margin: 20px 0;
 }
 
-.buy-button {
+.botao {
     background-color: #000000;
     color: #fff;
     border: none;
