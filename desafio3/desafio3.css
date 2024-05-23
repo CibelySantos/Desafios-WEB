@@ -1,0 +1,63 @@
+/* Cibely e Gabriel Moreira */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.product-container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+}
+
+.product-image {
+    flex: 1;
+    max-width: 300px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    flex: 2;
+    padding: 20px;
+}
+
+.product-details h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.product-details .description {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.product-details .price {
+    font-size: 24px;
+    color: #ff000d;
+    margin: 20px 0;
+}
+
+.buy-button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-button:hover {
+    background-color: #d40813;
+}
